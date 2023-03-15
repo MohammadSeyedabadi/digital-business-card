@@ -182,10 +182,6 @@ img {
   border-bottom-left-radius: 10px;
 }
 
-.footer > a {
-  text-decoration: none;
-}
-
 .twitter--container {
   display: flex;
   align-items: center;
@@ -196,6 +192,15 @@ img {
   width: 25px;
   height: 25px;
 }
+
+.twitter--link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+}
+
 .twitter--svg {
   color: #161619;
 }
@@ -207,6 +212,13 @@ img {
   margin-right: 1.5rem;
   border-radius: 5px;
   background: #918e9b;
+  width: 25px;
+  height: 25px;
+}
+.facebook--link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 25px;
   height: 25px;
 }
@@ -224,6 +236,13 @@ img {
   width: 25px;
   height: 25px;
 }
+.instagram--link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+}
 .instagram--svg {
   color: #161619;
 }
@@ -238,6 +257,13 @@ img {
   width: 25px;
   height: 25px;
 }
+.linkedin--link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+}
 .linkedin--svg {
   color: #161619;
 }
@@ -248,6 +274,13 @@ img {
   justify-content: center;
   border-radius: 5px;
   background: #918e9b;
+  width: 25px;
+  height: 25px;
+}
+.github--link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 25px;
   height: 25px;
 }
