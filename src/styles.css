@@ -1,0 +1,256 @@
+/* ===================     css reset (start)    ========================== */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ===================     css reset (end)   ========================== */
+
+body {
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  background-color: #23252c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#root {
+  background-color: #23252c;
+  padding-top: 2rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-bottom: 0;
+  max-width: 317px;
+  max-height: 317px;
+}
+.info {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #1a1b21;
+}
+.info > h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 1rem;
+}
+
+.info > h5 {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #f3bf99;
+}
+.info--websiteLink {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+.info--website {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.info--button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.button--email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: #ffffff;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 15px 105px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.button--svg {
+  padding-right: 5px;
+}
+.button--text {
+  display: flex;
+  align-items: center;
+}
+.about {
+  padding-left: 10%;
+  padding-top: 5%;
+  background-color: #1a1b21;
+  padding-bottom: 4%;
+}
+
+.about--title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+.about--paragraph {
+  max-width: 247px;
+  font-weight: 400;
+  font-size: 15.24px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+
+.interests {
+  padding-left: 10%;
+  padding-bottom: 8%;
+  background-color: #1a1b21;
+  color: #f5f5f5;
+}
+
+.interests--title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+.interests--paragraph {
+  max-width: 247px;
+  font-weight: 400;
+  font-size: 15.24px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  background-color: #161619;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.footer > a {
+  text-decoration: none;
+}
+
+.twitter--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+  border-radius: 5px;
+  background: #918e9b;
+  width: 25px;
+  height: 25px;
+}
+.twitter--svg {
+  color: #161619;
+}
+
+.facebook--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+  border-radius: 5px;
+  background: #918e9b;
+  width: 25px;
+  height: 25px;
+}
+.facebook--svg {
+  color: #161619;
+}
+
+.instagram--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+  border-radius: 5px;
+  background: #918e9b;
+  width: 25px;
+  height: 25px;
+}
+.instagram--svg {
+  color: #161619;
+}
+
+.linkedin--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+  border-radius: 5px;
+  background: #918e9b;
+  width: 25px;
+  height: 25px;
+}
+.linkedin--svg {
+  color: #161619;
+}
+
+.github--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: #918e9b;
+  width: 25px;
+  height: 25px;
+}
+.github--svg {
+  color: #161619;
+}
